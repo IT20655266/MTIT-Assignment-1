@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: CoffeeStorePublisher
+Bundle-SymbolicName: CoffeeStorePublisher
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: coffeestorepublisher.CoffeeStoreActivator
+Bundle-RequiredExecutionEnvironment: JavaSE-20
+Automatic-Module-Name: CakeStorePublisher
+Import-Package: coffeestorepublisher,
+ org.osgi.framework;version="1.3.0"
+Bundle-ActivationPolicy: lazy
+Export-Package: coffeestorepublisher

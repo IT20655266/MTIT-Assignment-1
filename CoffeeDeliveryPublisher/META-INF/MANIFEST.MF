@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: CoffeeDeliveryPublisher
+Bundle-SymbolicName: CoffeeDeliveryPublisher
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: coffeedeliverypublisher.CoffeeDeliveryActivator
+Bundle-RequiredExecutionEnvironment: JavaSE-20
+Automatic-Module-Name: CoffeeDeliveryPublisher
+Import-Package: coffeedeliverypublisher,
+ org.osgi.framework;version="1.3.0"
+Bundle-ActivationPolicy: lazy
+Export-Package: coffeedeliverypublisher
